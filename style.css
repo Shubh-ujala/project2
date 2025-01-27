@@ -1,0 +1,57 @@
+.container{
+    display: grid;
+    grid-template-columns: 80px 140px 140px 140px 140px 140px 140px;
+    grid-template-rows:60px 30px 40px 150px 60px;
+    gap: 10px;
+}
+.container>div{
+    border: 2px solid black;
+    align-content: center;
+    text-align: center;
+}
+#login{
+    grid-row: 1 / 4;
+    background-color: green;
+}
+#second{
+    grid-column: 2 / 6;
+}
+#three{
+    grid-row:2;
+    grid-column: 2 /5;
+}
+#four{
+    grid-row: 3;
+    grid-column: 2;
+}
+#navigation{
+    grid-row:4 / 5;
+}
+#five{
+    grid-row:3;
+    grid-column: 3;
+}
+#six{
+    grid-row:3;
+    grid-column: 4;
+}
+#seven{
+    grid-row:3;
+    grid-column: 5;
+}
+#eight{
+    grid-row:3;
+    grid-column: 6;
+}
+#nine{
+    grid-row:3;
+    grid-column: 7;
+}
+#elev{
+    grid-row: 4 / 5;
+    grid-column: 2/8;
+}
+#twe{
+    grid-row: 5;
+    grid-column: 2/8;
+}
